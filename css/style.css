@@ -1,0 +1,21 @@
+body {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(25, 26, 25, 1);
+}
+
+/* header styles */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 158px;
+  margin: 0 112px;
+}
+.header-block {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(25, 26, 25, 1);
+}
