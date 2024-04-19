@@ -1,6 +1,7 @@
 body {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(25, 26, 25, 1);
+  font-family: "Poppins", sans-serif;
 }
 
 /* header styles */
@@ -18,4 +19,39 @@ body {
   left: 0;
   z-index: 100;
   background-color: rgba(25, 26, 25, 1);
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.navbar {
+  width: 505px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+.nav-li {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+.nav-li:hover {
+  color: rgba(255, 116, 32, 1);
+}
+.nav-li::after {
+  content: " ";
+  height: 3px;
+  width: 0px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255, 116, 32, 1);
+  transition: all 1s;
+}
+.nav-li:hover::after {
+    width: 100%;
 }
