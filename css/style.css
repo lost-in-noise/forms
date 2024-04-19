@@ -57,7 +57,7 @@ body {
 }
 .header-forms {
   display: flex;
-  gap: 24px;
+  align-items: center;
 }
 .lang-form {
   width: 165px;
@@ -77,4 +77,17 @@ body {
 #languages:focus {
   outline: none;
   border: none;
+}
+.btn {
+  background: rgba(255, 116, 32, 1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  padding: 15px, 30px;
+  cursor: pointer;
+  width: 194px;
+  height: 66px;
 }
