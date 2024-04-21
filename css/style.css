@@ -2,6 +2,7 @@ body {
   color: rgba(255, 255, 255, 1);
   background-color: rgba(25, 26, 25, 1);
   font-family: "Poppins", sans-serif;
+  padding-top: 158px;
 }
 
 /* header styles */
@@ -109,8 +110,48 @@ body {
 /* main styles */
 
 .img-bg {
-
+position: relative;
 }
 .workers-img {
   width: 100%;
+}
+.text-on-img {
+  position: absolute;
+  top: 155px;
+  left: 112px;
+}
+.text-on-img h1, .text-on-img h2 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+}
+.orange {
+  color: rgba(255, 116, 32, 1);
+  ;
+}
+.text-on-img p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  width: 587px;
+}
+.img-buttons {
+  margin-top: 75px;
+  width: 480px;
+  display: flex;
+  align-items: center;
+  
+}
+.services-btn {
+  width: 246px;
+  vertical-align: middle;
+}
+.white-arrow {
+  vertical-align: middle;
+}
+.project {
+  width: 208px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(25, 26, 25, 1);
+  margin-left: 24px;
 }

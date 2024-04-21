@@ -46,6 +46,9 @@
   .header-wrapper {
     height: 130px;
   }
+  body {
+    padding-top: 130px;
+  }
 }
 @media (max-width: 1146px) {
   .btn {
@@ -94,6 +97,9 @@
   }
   .header-wrapper {
     height: 76px;
+  }
+  body {
+    padding-top: 76px;
   }
 }
 @media (max-width: 760px) {
