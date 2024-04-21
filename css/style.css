@@ -20,6 +20,9 @@ body {
   z-index: 100;
   background-color: rgba(25, 26, 25, 1);
 }
+.header-logo {
+  width: 100%;
+}
 .nav-ul {
   display: flex;
   justify-content: space-between;
@@ -60,7 +63,7 @@ body {
   align-items: center;
 }
 .lang-form {
-  width: 165px;
+  width: 145px;
   padding: 10px;
 }
 #languages {
@@ -86,8 +89,19 @@ body {
   line-height: 36px;
   color: rgba(255, 255, 255, 1);
   border-radius: 15px;
-  padding: 15px, 30px;
+  padding: 15px 30px;
   cursor: pointer;
   width: 194px;
   height: 66px;
+}
+.burger-bar {
+  display: none;
+  cursor: pointer;
+  border: 1px solid rgba(204, 213, 255, 0.11) !important;
+  border-radius: 12px;
+  padding: 0.55rem 1rem;
+  font-size: 1.65rem;
+  line-height: 1;
+  background-color: transparent;
+  color: rgba(255, 116, 32, 1);
 }
